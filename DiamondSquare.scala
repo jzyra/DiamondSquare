@@ -134,7 +134,6 @@ object DiamondSquare {
 			for (x <- 0 to _sizeX-1 by step) {
 				for (y <- 0 to _sizeX-1 by step) {
 					if(x+demiStep < _sizeX && y+demiStep < _sizeY) {
-						if(step == 12) { println(x + " " + y); }
 						square(x+demiStep, y+demiStep, step);
 					}
 				}
