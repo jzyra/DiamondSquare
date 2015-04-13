@@ -182,7 +182,7 @@ object DiamondSquare {
 		println("DESCRIPTION");
 		println("\tGenerate heightmap with diamond-square algorithm.");
 		println("\tImage generated is in bmp format.\n");
-		println("\t-output");
+		println("\t-out");
 		println("\t\tPath to the image output. (./a.bmp by default)\n");
 		println("\t-smooth");
 		println("\t\tSmooth coefficient. (between 0 and 1)\n");
